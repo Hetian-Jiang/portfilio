@@ -13,7 +13,7 @@ export default function ProjectCard({ name, description, imageUrl }: ProjectCard
         <Image
           src={imageUrl}
           alt={name}
-          layout='fill'
+          fill
           className='rounded-lg object-contain object-center transition-transform transform group-hover:scale-105'
         />
       </div>
