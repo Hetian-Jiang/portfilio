@@ -13,8 +13,8 @@ export default function ProjectCard({ name, description, imageUrl }: ProjectCard
         <Image
           src={imageUrl}
           alt={name}
-          fill
-          className='rounded-lg object-cover object-center transition-transform transform group-hover:scale-105'
+          layout='fill'
+          className='rounded-lg object-contain object-center transition-transform transform group-hover:scale-105'
         />
       </div>
       <div className='absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-8'>
